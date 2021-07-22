@@ -44,12 +44,12 @@ Create your cluster and nodes (run the below commands)
 
 eksctl create cluster --name cluster-name  \
 --region region-name \
---node-type instance-type \
+--node-type instance-type
 
 example:-
 eksctl create cluster --name kubernetes-cluster \
    --region ap-south-1 \
---node-type t2.small \
+--node-type t2.small 
 
 Validate your cluster using by creating by checking nodes and by creating a pod
 
